@@ -1,0 +1,17 @@
+{
+  "client_id": "https://teorech-ctrl.github.io/gerai/client.json",
+  "client_name": "Ger.AI",
+  "redirect_uris": [
+    "http://127.0.0.1:47811/desktop/oauth/callback",
+    "http://127.0.0.1:47812/desktop/oauth/callback",
+    "http://127.0.0.1:47813/desktop/oauth/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none"
+}
